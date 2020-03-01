@@ -1,0 +1,15 @@
+@media only screen and (max-width: 576px){
+.container2 .left-serve{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 30px;
+	text-align: center;
+}
+}
+@media only screen and (min-width: 768px){
+	.top-sec{
+		background-image: url('../img/main.png' );
+		width: 100%;
+		background-position: 100% 100%;
+	}
+}

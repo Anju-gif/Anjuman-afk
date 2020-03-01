@@ -1,0 +1,382 @@
+body{
+	overflow-x: hidden
+}
+body p{
+	font-family: font-family: Helvetica Neue,Helvetica,Arial,sans-serif ;
+	font-size: 16px;
+}
+/* =================================================================== */
+/* notifi start */
+/* =================================================================== */
+ .home h1 {
+    font-family: Pacifico;
+    color: #ede7e4;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 40px;
+        }
+   h1 span{
+   	margin-bottom: 0;
+	border-radius: 50%;
+	color: #2ecc71;
+	margin-left: -6px;
+    	}
+ /* =================================================================== */   	
+ /* all p font family */
+ /* =================================================================== */
+ .home p{
+ 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif ;
+ 	color: #fff;
+ 	margin-left: 200px;
+ 	width: 290px;
+ 	margin-top: 10px;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	line-height: 25px;
+ 	}
+ /* =================================================================== */
+/* top sec with ing */
+/* =================================================================== */
+.top-sec{
+	background-image: url('../img/main.png' );
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	width: 100%;
+	margin-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 7px solid #2ecc71;
+	padding-bottom: 0;
+}
+/* =================================================================== */
+/* social icon css start */
+/* =================================================================== */
+.socialsec ul {
+	margin-left: 160px;
+}
+.socialsec ul li{
+	list-style: none;
+	float: left;
+}
+.socialsec ul li a i{
+	background: #37221a;
+	height: 30px;
+	width: 30px;
+	padding: 12px;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 22px;
+	color: #e0d1b7;
+	}
+.socialsec ul li a i:hover{
+	background: #2ecc71;
+	color: #e0d1b7;
+	transition: 1.5s;
+	transform: rotate(1turn);
+}
+/* =================================================================== */
+/* social icon css end */
+/* ======================================================================== */
+/* servises css start */
+/* =================================================================== */
+.container2{
+	width: 100%;
+	height: 250px;
+	margin-left: 90px;
+
+	margin-right: 30px;
+	position: relative;
+	margin-top: 40px;
+}
+.container2 p{
+	font-family: font-family: Helvetica Neue,Helvetica,Arial,sans-serif ;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #a4a4a4;
+}
+.container2 h3{
+	font-family: Raleway-SemiBold, sans-serif;
+	color: #222222;
+	font-size: 18px;
+	font-weight: 600;
+}
+.container2 .left-serve,
+.container2 .center-serve,
+.container2 .right-serve
+{
+	display: inline-block;
+	width: 30%;
+	height: 180px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	color: ;
+}
+.container2 .left-serve
+	i{
+	background:#2ecc71 ;
+	height: 30px;
+	padding: 18px;
+	width: 30px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 30px;
+}
+.container2 .center-serve
+ i{
+	background:#2ecc71 ;
+	height: 30px;
+	padding: 18px ;
+	width: 30px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 30px;
+}
+.container2 .right-serve
+	i{
+	background:#2ecc71 ;
+	height: 30px;
+	padding: 18px;
+	width: 30px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 30px;
+}
+.left-serve h3{
+	width: 100%;
+	display: block;
+}
+/* ========================================================= */
+/* servises css end */
+/* ==================================================== */
+/* contact css start */
+/* ======================================================== */
+.container3{
+	left: 0;
+	right: 0;
+	padding-left: 16%;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 400px;
+	background: #e3e3e3;
+	margin-top: 0;
+}
+	.container3 .email-info h3{
+	font-family: Raleway-SemiBold, sans-serif;
+	font-weight: 500;
+	 margin-top: 0;
+   }
+  .container3 .email-info p{
+  	font-family: font-family: Helvetica Neue,Helvetica,Arial,sans-serif ;
+  	font-size: 17px;
+	font-weight: 500;
+	line-height: 27px;
+	color: #a4a4a4;
+  } 
+ .container3 .email-info input{
+   height: 40px;
+   width: 250px;
+   position: relative;
+   margin-right: 0;
+   padding-left: 25px;
+   border-radius: 10px 0 0 10px;
+	border: 1px solid #c8c8c8;
+   }
+	.container3 .email-info a button{
+    	text-decoration: none;
+    	background: #2ecc71;
+    	height: 44.5px;
+    	width: 80px;
+    	position: absolute;
+    	margin-left: -5px;
+    	border-radius: 0 10px 10px 0;
+    	margin-bottom: -1px;
+    	border: 1px solid #2ecc71;
+    	display: inline-block;
+    	color: #fff;
+    	font-family: Raleway-Bold, sans-serif;
+    	font-weight: 500;
+    	font-size: 18px;
+    }
+.container3 .email-info{
+	display: inline-block;
+	width:400px ;
+}
+.container3 .gallery iframe{
+	
+	display: inline-block;
+	border-radius: 10px
+}
+.gallery {
+	display: inline-block;
+	/* padding-top: 20px; */
+	margin-top: 7%;
+	margin-left: 180px;
+}
+/* ========================================================= */
+/* contact css end */
+/* ===================================================== */
+/* members section css strat */
+/* ========================================================= */
+.members{
+	margin-top: 0;
+}
+.info p{
+	font-family: font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #8c8c8c;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 20%;
+	width: 50%;
+	font-size: 14px;
+	line-height: 25px;
+}
+.info h4{
+	font-family: Raleway-Bold, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: #444444;
+}
+.face{
+	display: block;
+	margin-left: 70px;
+}
+p{
+ 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif ;}
+.face ul{
+	width: 100%;
+	margin: auto;
+	padding-left: 190px;
+}
+.face ul li{
+	list-style: none;
+	float: left;
+	margin-top: 0;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.container{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	}
+.container img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.container .overlay{
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	overflow: hidden;
+	background: rgba(112,181,109,.7);
+	transition: 1s ;
+}
+  .container:hover >.overlay{
+	height: 100%;
+	display: block;
+	cursor: pointer;
+}
+/* ============================================== */
+/* member section end */
+/* ============================================ */
+/* get touch se cction strat */
+/* ================================================ */
+.gettouch .sb h3{
+	 display: block;
+    font-family: Raleway-Bold, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	color: #444444;
+    }
+.gettouch .sb p{
+	display: block;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif ;
+	color: #8c8c8c;
+	text-align: center;
+	font-size: 13px;
+}
+.media ul {
+	margin-left: 40%;
+	display: block;
+}
+.media ul li{
+	list-style: none;
+	float: left;
+	left: 0;
+	right: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.media ul li a i{
+	background: #d4d4d4;
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 10px;
+}
+.media ul li a i:hover{
+	background: #62d995;
+	color: #fff;
+	transition: 1s;
+	transform: rotate(1turn);
+}
+/* ============================================== */
+/* get touch se cction end */
+/* ================================================= */
+/* footer section start */
+/* =================================================== */
+.footer{
+	background: #e3e3e3;
+	width: 100%;
+	height: 120px;
+	padding-top: 40px;
+	margin-top: 20px;
+}
+.footer ul{
+	margin-left: 25%;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #848484;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+}
+.footer ul li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+.footer ul li a:hover{
+	color: #2ecc71;
+}
+.footer footer{
+	color: #848484;
+	font-family: Helvetica Neue;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 25px;
+}
+/* ========================================= */
+/* footer section end */
+/* =========================================== */
